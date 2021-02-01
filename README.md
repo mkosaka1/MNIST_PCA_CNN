@@ -9,3 +9,24 @@ Deep Learning is a subset of Machine Learning, inspired by the structure of a hu
 ## MNIST Dataset
 The (MNIST Dataset)[https://www.kaggle.com/c/digit-recognizer] (Modified National Institute of Standards and Technology database) is one of the more popular datasets among deep learning enthusiasts. This dataset contains 42,000 labeled grayscale images (28 x 28 pixel) of handwritten digits from 0–9 in their training set and 28,000 unlabeled test images.
 
+## Procedure
+
+![imag2](https://github.com/mkosaka1/MNIST_PCA_CNN/blob/main/Images/Sample_Images.png)
+
+**PCA Cumulative Variance**
+
+<p align="center">
+  <img width="460" height="300" src="https://github.com/mkosaka1/MNIST_PCA_CNN/blob/main/Images/PCA_Cumulative_Variance.png">
+</p>
+
+**Using PCA preprocessed data to build CNN Model** 
+
+Building 2D CNN model with 3 Layers and 1 Fully connected layer resulted in an accuracy of 99.8% !
+
+<p align="center">
+  <img width="460" height="300" src="https://github.com/mkosaka1/MNIST_PCA_CNN/blob/main/Images/Model_Accuracy.png">
+</p>
+
+<p align="center">
+  <img width="460" height="300" src="https://github.com/mkosaka1/MNIST_PCA_CNN/blob/main/Images/Model_loss.png">
+</p>
